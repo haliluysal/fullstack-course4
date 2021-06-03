@@ -20,16 +20,20 @@ h1 {
   margin: 5px;
 }
 
-#Chicken {
+#Lorem {
   background-color: darksalmon;
+  font-weight: bold;
 }
 
-#Beef {
+#Ipsum {
   background-color: darkslateblue;
+  font-weight: bold;
+  color: aliceblue;
 }
 
-#Sushi {
+#Dolor {
   background-color: darkviolet;
+  font-weight: bold;
 }
 
 section {

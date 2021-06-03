@@ -1,0 +1,79 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 250%;
+}
+
+.menuItem {
+  background-color: gray;
+  border: 1px solid black;
+  position: relative;
+  margin: 5px;
+}
+
+#Chicken {
+  background-color: darksalmon;
+}
+
+#Beef {
+  background-color: darkslateblue;
+}
+
+#Sushi {
+  background-color: darkviolet;
+}
+
+section {
+  text-align: left;
+  margin: 5px;
+}
+
+p {
+  padding: 8px;
+  margin: 0;
+  background-color: darksalmon;
+  float: right;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,
+  .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767) {
+  .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
